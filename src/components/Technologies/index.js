@@ -9,28 +9,28 @@ export default function Technologies() {
       <Title>Technologies</Title>
       <Table>
         <Grid container>
-          <Grid lg={12} xs={12}>
+          <Grid lg={6} xs={12}>
             <ProgressBar title="HTML" progress={99} />
           </Grid>
-          <Grid lg={12} xs={12}>
+          <Grid lg={6} xs={12}>
             <ProgressBar title="CSS" progress={98} />
           </Grid>
-          <Grid lg={12} xs={12}>
+          <Grid lg={6} xs={12}>
             <ProgressBar title="JS" progress={95} />
           </Grid>
-          <Grid lg={12} xs={12}>
+          <Grid lg={6} xs={12}>
             <ProgressBar title="ReactJS" progress={98} />
           </Grid>
-          <Grid lg={12} xs={12}>
+          <Grid lg={6} xs={12}>
             <ProgressBar title="NodeJS" progress={99} />
           </Grid>
-          <Grid lg={12} xs={12}>
+          <Grid lg={6} xs={12}>
+            <ProgressBar title="React Native" progress={95} />
+          </Grid>
+          <Grid lg={6} xs={12}>
             <ProgressBar title="MongoDB" progress={95} />
           </Grid>
-          <Grid lg={12} xs={12}>
-            <ProgressBar title="React Native" progress={90} />
-          </Grid>
-          <Grid lg={12} xs={12}>
+          <Grid lg={6} xs={12}>
             <ProgressBar title="PostgreSQL" progress={85} />
           </Grid>
         </Grid>

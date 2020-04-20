@@ -6,7 +6,9 @@ import {
   Text,
   Form,
   FormTitle,
+  Icon,
 } from './styles';
+import MessageIcon from '../../assets/images/speak.png';
 
 const inputStyle = {
   width: '100%',
@@ -22,8 +24,10 @@ export default function Contact() {
           <Title>Contact me</Title>
         </Grid>
         <Grid item lg={6} xs={12}>
-          <Text>We can talk about your project or idea. </Text>
-          <Text>We can develop your best idea! </Text>
+          <Text><Icon src={MessageIcon} /></Text>
+          <Text>Let's talk about your project. </Text>
+          <Text>We can develop your idea. </Text>
+          <Text>We can realize your dreams! </Text>
         </Grid>
         <Grid item lg={6} xs={12} style={{ padding: 20 }}>
           <Form>
@@ -31,7 +35,7 @@ export default function Contact() {
             <TextField id="standard-basic" label="Your name" style={inputStyle} />
             <TextField id="standard-basic" label="Your email" style={inputStyle} />
             <TextField id="standard-basic" multiline rows={3} label="Your message" style={inputStyle} />
-            <Button variant="contained" color="primary">
+            <Button variant="contained" color="primary" style={inputStyle}>
               Send
             </Button>
           </Form>

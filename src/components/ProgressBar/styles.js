@@ -34,6 +34,7 @@ export const BarText = styled.div`
 `;
 
 export const BarTitle = styled.div`
+    text-align: right;
     font-size: 1.2em;
     margin: 10px;
     width: 140px;
