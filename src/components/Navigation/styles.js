@@ -24,7 +24,7 @@ export const UL = styled.ul`
 `;
 
 export const LI = styled.ul`
-    font-size: 2em;
+    font-size: 1.6em;
     margin-left: 10px;
     margin-right: 10px;
     border-radius: 10px;
@@ -54,10 +54,11 @@ export const ULFloating = styled.ul`
     background-color: ghostwhite;
     color: black;
     transition: 0.2s linear;
+    box-shadow: 0px 0px 7px black;
 `;
 
 export const LIFloating = styled.ul`
-    font-size: 2em;
+    font-size: 1.6em;
     margin-left: 10px;
     margin-right: 10px;
     border-radius: 10px;

@@ -20,13 +20,13 @@ export default function Navigation() {
       <UL showTopHeader={showTopHeader}>
         <LI>Home</LI>
         <LI>About</LI>
-        <LI>Portfolio</LI>
+        <LI>Technologies</LI>
         <LI>Contact</LI>
       </UL>
       <ULFloating showTopFloatingHeader={!showTopHeader}>
         <LIFloating>Home</LIFloating>
         <LIFloating>About</LIFloating>
-        <LIFloating>Portfolio</LIFloating>
+        <LIFloating>Technologies</LIFloating>
         <LIFloating>Contact</LIFloating>
       </ULFloating>
     </Container>

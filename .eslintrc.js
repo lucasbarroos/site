@@ -26,5 +26,6 @@ module.exports = {
     "import/prefer-default-export": 0,
     "react/no-unescaped-entities": 0,
     "max-len": 0,
+    "react/prop-types": 0,
   },
 };
