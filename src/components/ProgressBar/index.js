@@ -1,19 +1,24 @@
 import React from 'react';
 import {
+  BarContainer,
   Bar,
   BarContent,
   BarText,
+  BarTitle,
 } from './styles';
 
-export default function ProgressBar({ progress }) {
+export default function ProgressBar({ title, progress }) {
   return (
-    <Bar>
-      <BarContent progress={progress}>
-        <BarText>
-          {progress}
-          %
-        </BarText>
-      </BarContent>
-    </Bar>
+    <BarContainer>
+      <BarTitle>{title}</BarTitle>
+      <Bar>
+        <BarContent progress={progress}>
+          <BarText>
+            {progress}
+            %
+          </BarText>
+        </BarContent>
+      </Bar>
+    </BarContainer>
   );
 }

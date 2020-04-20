@@ -1,7 +1,13 @@
 import styled from 'styled-components';
 
-export const Bar = styled.div`
+export const BarContainer = styled.div`
+    display: flex;
+    flex-direction: row;
     margin-top: 20px;
+    margin-bottom: 20px;
+`;
+
+export const Bar = styled.div`
     padding: 2px;
     height: 40px;
     width: 100%;
@@ -25,4 +31,10 @@ export const BarText = styled.div`
     color: white;
     font-weight: bolder;
     font-size: 1.5em;
+`;
+
+export const BarTitle = styled.div`
+    font-size: 1.2em;
+    margin: 10px;
+    width: 140px;
 `;
