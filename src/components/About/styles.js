@@ -12,6 +12,7 @@ export const AboutTitle = styled.div`
     letter-spacing: 2px;
     font-weight: 300;
 `;
+
 export const AboutComponents = styled.div`
     margin-top: 60px;
     padding: 0px 60px 0px 50p40pxx;
