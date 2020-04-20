@@ -12,18 +12,30 @@ export const AboutTitle = styled.div`
     letter-spacing: 2px;
     font-weight: 300;
 `;
-
 export const AboutComponents = styled.div`
     margin-top: 60px;
     padding: 0px 60px 0px 50p40pxx;
 `;
 
 export const AboutText = styled.p`
+    background-color: white;
+    margin: 10px;
+    border-radius: 10px;
+    position: relative; 
     font-size: 1.5em;
     letter-spacing: 2px;
+    min-height: 240px;
     font-weight: 300;
     padding: 7%;
     text-align: justify;
+    border: 5px solid #dddddd;
+`;
+
+export const AboutIcon = styled.img`
+    top: -40px;
+    right: 0px;
+    height: 1.5em;
+    width: 1.5em;
 `;
 
 export const Picture = styled.div`
@@ -31,7 +43,7 @@ export const Picture = styled.div`
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    margin-top: 20px;
+    margin-top: 10px;
     border-radius: 15px;
     height: 300px;
     width: 300px;
