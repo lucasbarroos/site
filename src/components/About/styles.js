@@ -24,11 +24,9 @@ export const AboutText = styled.p`
     border-radius: 10px;
     position: relative; 
     font-size: 1.5em;
-    letter-spacing: 2px;
-    min-height: 240px;
-    font-weight: 300;
+    min-height: 260px;
+    font-weight: 500;
     padding: 7%;
-    text-align: justify;
     border: 5px solid #dddddd;
 `;
 

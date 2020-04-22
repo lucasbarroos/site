@@ -31,7 +31,11 @@ export default function About() {
               <AboutIcon src={workIcon} />
               {' '}
               I work with Web Development for about 7 years, using JS as the main stack.
-              I have 6 years of working at Criatech Solutions (https://criatech.me) as a Full-stack Developer.
+              I have 6 years of working at
+              {' '}
+              <a href="https://criatech.me" target="_blank">Criatech Solutions</a>
+              {' '}
+              as a Full-stack Developer.
             </AboutText>
           </Grid>
           <Grid item justify="center" lg={3} xs={12}>
