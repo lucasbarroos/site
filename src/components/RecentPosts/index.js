@@ -28,7 +28,7 @@ const posts = [{
 export default function RecentPosts() {
   return (
     <Container>
-      <Grid container spacing={6}>
+      <Grid container spacing={3}>
         <Grid item lg={12}>
           <Title>Recent Posts</Title>
         </Grid>
