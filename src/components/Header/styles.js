@@ -29,21 +29,21 @@ export const HeaderElements = styled.div`
 
 export const HeaderTitle = styled.p`
     position: absolute;
-    bottom: 50%;
+    bottom: 40%;
     font-size: 4em;
     color: wcoolBoxKeyframeshite;
 `;
 
 export const HeaderSubtitle = styled.p`
     position: absolute;
-    bottom: 46%;
+    bottom: 36%;
     font-size: 2em;
     color: white;
 `;
 
 export const ButtonContainer = styled.div`
     position: absolute;
-    bottom: 35%;
+    bottom: 25%;
     width: 100%;
     height: 100px;
     display: flex;
@@ -53,7 +53,7 @@ export const ButtonContainer = styled.div`
 
 export const Picture = styled.div`
     position: absolute;
-    bottom: 60.5%;
+    bottom: 50.5%;
     background-image: url('https://imgur.com/AZdKz0C.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -88,7 +88,7 @@ const pulse = keyframes`
 
 export const PictureContainer = styled.div`
     position: absolute;
-    bottom: 60%;
+    bottom: 50%;
     height: 270px;
     width: 270px;
     border-radius: 50%;
