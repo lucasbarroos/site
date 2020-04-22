@@ -44,7 +44,6 @@ export const Picture = styled.div`
     background-position: center;
     margin-top: 10px;
     border-radius: 15px;
-    height: 300px;
-    width: 300px;
+    min-height: 300px;
     border: 5px solid #dddddd;
 `;
