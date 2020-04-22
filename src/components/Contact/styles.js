@@ -7,7 +7,7 @@ export const Container = styled.div`
 
 export const Title = styled.div`
     text-align: center;
-    font-size: 3.5em;
+    font-size: 3em;
     letter-spacing: 2px;
     font-weight: 300;
     margin-bottom: 20px;
@@ -15,7 +15,7 @@ export const Title = styled.div`
 
 export const Text = styled.p`
     text-align: right;
-    font-size: 2.5em;
+    font-size: 2em;
     letter-spacing: 2px;
     font-weight: 300;
     margin-top: 10px;
@@ -31,7 +31,7 @@ export const Form = styled.div`
 
 export const FormTitle = styled.p`
     text-align: center;
-    font-size: 2em;
+    font-size: 1.6em;
     letter-spacing: 2px;
     font-weight: 300;
 `;
