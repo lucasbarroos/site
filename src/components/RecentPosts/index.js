@@ -50,6 +50,9 @@ export default function RecentPosts() {
             </Grid>
           ))
         }
+        <Grid item lg={12} style={{ textAlign: 'center' }}>
+          <Button variant="outlined" color="secondary">Blog Page</Button>
+        </Grid>
       </Grid>
     </Container>
   );
