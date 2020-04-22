@@ -52,7 +52,6 @@ export default function About() {
               {', '}
               <a href="https://www.mongodb.com/" target="_blank">Mongodb</a>
               .
-              To know about other technologies, contact me!
             </AboutText>
           </Grid>
           <Grid item justify="center" lg={3} xs={12}>

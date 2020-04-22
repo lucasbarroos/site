@@ -53,7 +53,7 @@ export const ButtonContainer = styled.div`
 
 export const Picture = styled.div`
     position: absolute;
-    top: 125px;
+    bottom: 60.5%;
     background-image: url('https://imgur.com/AZdKz0C.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -88,7 +88,7 @@ const pulse = keyframes`
 
 export const PictureContainer = styled.div`
     position: absolute;
-    top: 120px;
+    bottom: 60%;
     height: 270px;
     width: 270px;
     border-radius: 50%;
