@@ -9,8 +9,9 @@ import {
   Picture,
 } from './styles';
 
-const schoolIcon = require('../../assets/images/school.png');
-const workIcon = require('../../assets/images/monitor.png');
+const schoolIcon = require('../../assets/images/graduated.png');
+const workIcon = require('../../assets/images/clock.png');
+const resumeIcon = require('../../assets/images/gamer.png');
 
 export default function About() {
   return (
@@ -36,6 +37,22 @@ export default function About() {
               <a href="https://criatech.me" target="_blank">Criatech Solutions</a>
               {' '}
               as a Full-stack Developer.
+            </AboutText>
+          </Grid>
+          <Grid item justify="center" lg={3} xs={12}>
+            <AboutText>
+              <AboutIcon src={resumeIcon} />
+              My main technologies are:
+              {' '}
+              <a href="https://reactjs.org/" target="_blank">React</a>
+              {', '}
+              <a href="https://reactnative.dev" target="_blank">React Native</a>
+              {', '}
+              <a href="https://nodejs.org" target="_blank">NodeJS</a>
+              {', '}
+              <a href="https://www.mongodb.com/" target="_blank">Mongodb</a>
+              .
+              To know about other technologies, contact me!
             </AboutText>
           </Grid>
           <Grid item justify="center" lg={3} xs={12}>
