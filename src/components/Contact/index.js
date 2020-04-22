@@ -20,16 +20,16 @@ export default function Contact() {
   return (
     <Container>
       <Grid container>
-        <Grid item lg={12}>
+        <Grid item lg={12} md={12} sm={12} xs={12}>
           <Title>Contact me</Title>
         </Grid>
-        <Grid item lg={6} xs={12}>
+        <Grid item lg={6} md={6} sm={12} xs={12}>
           <Text><Icon src={MessageIcon} /></Text>
           <Text>Let's talk about your project. </Text>
           <Text>We can develop your idea. </Text>
           <Text>We can realize your dreams! </Text>
         </Grid>
-        <Grid item lg={6} xs={12} style={{ padding: 20 }}>
+        <Grid item lg={6} md={6} sm={12} xs={12} style={{ padding: 20 }}>
           <Form>
             <FormTitle>Send a Message</FormTitle>
             <TextField id="standard-basic" label="Your name" style={inputStyle} />

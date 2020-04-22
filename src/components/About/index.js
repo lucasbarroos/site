@@ -19,7 +19,7 @@ export default function About() {
       <AboutTitle>Who I am</AboutTitle>
       <AboutComponents>
         <Grid container justify="center" spacing={12}>
-          <Grid item justify="center" lg={3} xs={12}>
+          <Grid item justify="center" lg={3} md={6} sm={6} xs={12}>
             <AboutText>
               <AboutIcon src={schoolIcon} />
               {' '}
@@ -27,7 +27,7 @@ export default function About() {
               I study English at MDS Idioms for about 1 year.
             </AboutText>
           </Grid>
-          <Grid item justify="center" lg={3} xs={12}>
+          <Grid item justify="center" lg={3} md={6} sm={6} xs={12}>
             <AboutText>
               <AboutIcon src={workIcon} />
               {' '}
@@ -39,7 +39,7 @@ export default function About() {
               as a Full-stack Developer.
             </AboutText>
           </Grid>
-          <Grid item justify="center" lg={3} xs={12}>
+          <Grid item justify="center" lg={3} md={6} sm={6} xs={12}>
             <AboutText>
               <AboutIcon src={resumeIcon} />
               My main technologies are:
@@ -54,7 +54,7 @@ export default function About() {
               .
             </AboutText>
           </Grid>
-          <Grid item justify="center" lg={3} xs={12}>
+          <Grid item justify="center" lg={3} md={6} sm={6} xs={12}>
             <Picture />
           </Grid>
         </Grid>

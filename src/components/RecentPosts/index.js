@@ -28,12 +28,12 @@ export default function RecentPosts() {
   return (
     <Container>
       <Grid container spacing={3}>
-        <Grid item lg={12}>
+        <Grid item lg={12} md={12} sm={12} xs={12}>
           <Title>Recent Posts</Title>
         </Grid>
         {
           posts.map((el) => (
-            <Grid item lg={3}>
+            <Grid item lg={3} md={6} sm={6} xs={12}>
               <Post>
                 <NewIcon>New</NewIcon>
                 <PostImage src={el.image} />
@@ -49,7 +49,7 @@ export default function RecentPosts() {
             </Grid>
           ))
         }
-        <Grid item lg={12} style={{ textAlign: 'center' }}>
+        <Grid item lg={12} md={12} sm={12} xs={12} style={{ textAlign: 'center' }}>
           <Button variant="outlined" color="secondary">Blog Page</Button>
         </Grid>
       </Grid>

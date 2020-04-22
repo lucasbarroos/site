@@ -14,11 +14,16 @@ export const Title = styled.div`
 `;
 
 export const Text = styled.p`
-    text-align: right;
     font-size: 2em;
     letter-spacing: 2px;
     font-weight: 300;
     margin-top: 10px;
+    @media only screen and (min-width: 885px) {       
+        text-align: right;
+    };
+    @media only screen and (max-width: 885px) {       
+        text-align: center;
+    };
 `;
 
 export const Form = styled.div`
