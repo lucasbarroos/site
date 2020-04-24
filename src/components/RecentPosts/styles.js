@@ -14,10 +14,21 @@ export const Title = styled.div`
 `;
 
 export const Post = styled.div`
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
     position: relative;
     text-align: center; 
     min-height: 500px;
     background-color: white;
+`;
+
+export const PostImage = styled.img`
+    width: 100%;
+    max-height: 180px;    
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 `;
 
 export const PostTitle = styled.p`
@@ -32,11 +43,6 @@ export const PostDescription = styled.div`
     text-align: justify; 
     font-size: 1.1em;
     padding: 20px;    
-`;
-
-export const PostImage = styled.img`
-    width: 100%;
-    max-height: 180px;    
 `;
 
 export const NewIcon = styled.div`
