@@ -20,7 +20,7 @@ const buttonActionStyle = {
 
 export default function Header() {
   return (
-    <HeaderContainer>
+    <HeaderContainer id="home" name="home">
       <HeaderBlur />
       <HeaderElements>
         <HeaderTitle>Lucas Barros</HeaderTitle>

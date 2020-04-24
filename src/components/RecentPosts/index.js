@@ -26,7 +26,7 @@ const posts = [{
 
 export default function RecentPosts() {
   return (
-    <Container>
+    <Container id="recent_posts" name="recent_posts">
       <Grid container spacing={3}>
         <Grid item lg={12} md={12} sm={12} xs={12}>
           <Title>Recent Posts</Title>

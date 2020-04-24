@@ -18,7 +18,7 @@ const inputStyle = {
 
 export default function Contact() {
   return (
-    <Container>
+    <Container id="contact" name="contact">
       <Grid container>
         <Grid item lg={12} md={12} sm={12} xs={12}>
           <Title>Contact me</Title>

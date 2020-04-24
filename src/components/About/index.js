@@ -1,4 +1,5 @@
 import React from 'react';
+import { Element } from 'react-scroll';
 import Grid from '@material-ui/core/Grid';
 import {
   AboutContainer,
@@ -18,7 +19,7 @@ const resumeIcon = require('../../assets/images/gamer.png');
 
 export default function About() {
   return (
-    <AboutContainer>
+    <AboutContainer id="about">
       <AboutTitle>Who I am</AboutTitle>
       <AboutComponents>
         <Grid container justify="center" spacing={12}>

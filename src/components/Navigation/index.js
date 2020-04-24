@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-scroll';
 import {
   Container,
   UL,
@@ -25,18 +26,48 @@ export default function Navigation() {
   return (
     <Container>
       <UL showTopHeader={showTopHeader && !responsiveMode}>
-        <LI>Home</LI>
-        <LI>About</LI>
-        <LI>Technologies</LI>
-        <LI>Blog</LI>
-        <LI>Contact</LI>
+        <LI>
+          <Link activeClass="active" to="home" spy smooth offset={0} duration={500}>
+            Home
+          </Link>
+        </LI>
+        <LI>
+          <Link activeClass="active" to="about" spy smooth offset={0} duration={500}>
+            About
+          </Link>
+        </LI>
+        <LI>
+          <Link activeClass="active" to="recent_posts" spy smooth offset={0} duration={500}>
+            Blog
+          </Link>
+        </LI>
+        <LI>
+          <Link activeClass="active" to="contact" spy smooth offset={0} duration={500}>
+            Contact
+          </Link>
+        </LI>
       </UL>
       <ULFloating showTopFloatingHeader={!showTopHeader && !responsiveMode}>
-        <LIFloating>Home</LIFloating>
-        <LIFloating>About</LIFloating>
-        <LIFloating>Technologies</LIFloating>
-        <LIFloating>Blog</LIFloating>
-        <LIFloating>Contact</LIFloating>
+        <LIFloating>
+          <Link activeClass="active" to="home" spy smooth offset={0} duration={500}>
+            Home
+          </Link>
+        </LIFloating>
+        <LIFloating>
+          <Link activeClass="active" to="about" spy smooth offset={0} duration={500}>
+            About
+          </Link>
+        </LIFloating>
+        <LIFloating>
+          <Link activeClass="active" to="recent_posts" spy smooth offset={0} duration={500}>
+            Blog
+          </Link>
+        </LIFloating>
+        <LIFloating>
+          <Link activeClass="active" to="contact" spy smooth offset={0} duration={500}>
+            Contact
+          </Link>
+        </LIFloating>
       </ULFloating>
       <ResponsiveToggle showResponsiveMode={responsiveMode}>
         <ResponsiveImage src={ToggleButton} />
