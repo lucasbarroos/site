@@ -29,10 +29,14 @@ export const HeaderElements = styled.div`
 
 export const HeaderTitle = styled.p`
     position: absolute;
-    bottom: 40%;
+    bottom: 38%;
     font-size: 4em;
     color: wcoolBoxKeyframeshite;
-    @media only screen and (max-height: 640px) {
+    @media only screen and (max-height: 580px) {
+        font-size: 2em;
+        bottom: 50%;
+    }
+    @media only screen and (max-height: 640px) and (min-height: 581px) {
         font-size: 3em;
         bottom: 50%;
     }
@@ -40,10 +44,15 @@ export const HeaderTitle = styled.p`
 
 export const HeaderSubtitle = styled.p`
     position: absolute;
-    bottom: 36%;
+    bottom: 34%;
     font-size: 2em;
     color: white;
-    @media only screen and (max-height: 640px) {        
+    @media only screen and (max-height: 580px) {
+        font-size: 1.4em;
+        text-align: center;
+        bottom: 45%;
+    }
+    @media only screen and (max-height: 640px) and (min-height: 581px) {
         font-size: 1.8em;
         bottom: 45%;
     }
@@ -51,7 +60,7 @@ export const HeaderSubtitle = styled.p`
 
 export const ButtonContainer = styled.div`
     position: absolute;
-    bottom: 25%;
+    bottom: 23%;
     width: 100%;
     height: 100px;
     display: flex;
