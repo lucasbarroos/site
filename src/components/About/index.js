@@ -1,5 +1,4 @@
 import React from 'react';
-import { Element } from 'react-scroll';
 import Grid from '@material-ui/core/Grid';
 import {
   AboutContainer,
