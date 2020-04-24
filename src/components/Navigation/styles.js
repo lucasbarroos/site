@@ -69,6 +69,7 @@ export const LIFloating = styled.ul`
 export const ResponsiveToggle = styled.div`
     display: ${(props) => (props.showResponsiveMode ? 'initial' : 'none')};
     position: absolute;
+    z-index: 30;
     top: 20px;
     left: 20px;
     padding: 7px 10px 5px 8px;

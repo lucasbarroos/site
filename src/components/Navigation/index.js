@@ -10,11 +10,12 @@ import {
   ResponsiveImage,
 } from './styles';
 import ToggleButton from '../../assets/images/bullets.png';
+import ResponsiveNavigation from '../ResponiveNavigation/index';
 
 export default function Navigation() {
   const [showTopHeader, setShowTopHeader] = React.useState(true);
   const [responsiveMode, setResponsiveMode] = React.useState(true);
-
+  const [showResponsiveNavigation, setShowResponsiveNavigation] = React.useState(false);
   window.onscroll = () => {
     setShowTopHeader(window.pageYOffset <= 400);
   };
@@ -70,8 +71,9 @@ export default function Navigation() {
         </LIFloating>
       </ULFloating>
       <ResponsiveToggle showResponsiveMode={responsiveMode}>
-        <ResponsiveImage src={ToggleButton} />
+        <ResponsiveImage src={ToggleButton} onClick={() => setShowResponsiveNavigation(!showResponsiveNavigation)} />
       </ResponsiveToggle>
+      <ResponsiveNavigation show={showResponsiveNavigation} hideNavigation={setShowResponsiveNavigation} />
     </Container>
   );
 }
