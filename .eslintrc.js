@@ -28,5 +28,6 @@ module.exports = {
     "max-len": 0,
     "react/prop-types": 0,
     "react/jsx-no-target-blank": 0,
+    "no-underscore-dangle": 0,
   },
 };

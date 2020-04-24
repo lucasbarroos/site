@@ -32,7 +32,7 @@ export default function BlogPosts({ posts }) {
               </PostDescription>
               <PostDate>{moment(el.date).format('DD MMM YYYY')}</PostDate>
               <Button variant="contained" color="secondary" style={{ marginBottom: 10 }}>
-                <Link to={`/blog/${123}`}>Read more</Link>
+                <Link to={`/blog/${el._id}`}>Read more</Link>
               </Button>
             </Post>
           </Grid>
