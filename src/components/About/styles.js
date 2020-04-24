@@ -19,15 +19,16 @@ export const AboutComponents = styled.div`
 `;
 
 export const AboutText = styled.p`
-    background-color: white;
-    margin: 10px;
-    border-radius: 10px;
+    color: white;
+    border-radius: 15px;
     position: relative; 
     font-size: 1.5em;
     min-height: 260px;
     font-weight: 500;
-    padding: 7%;
-    border: 5px solid #dddddd;
+    padding: 60px 7% 7% 7%;
+    a {
+        color: rgba(255, 255, 255, 0.7);
+    }
 `;
 
 export const AboutIcon = styled.img`
@@ -43,7 +44,45 @@ export const Picture = styled.div`
     background-size: cover;
     background-position: center;
     margin-top: 10px;
-    border-radius: 15px;
+    border-radius: 8px;
     min-height: 300px;
     border: 5px solid #dddddd;
+`;
+
+export const AboutV2 = styled.div`
+    background-color: rgba(51, 51, 51, 1);
+    position: relative;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 9px -1px rgb(51, 51, 51);
+`;
+
+export const AboutCloseButton = styled.div`
+    position: absolute;
+    top: 10px;
+    left: 22px;
+    background: rgba(255, 0, 0 , 0.8);
+    height: 12px;
+    border-radius: 50%;
+    width: 12px;
+`;
+
+export const AboutMaxButton = styled.div`
+    position: absolute;
+    top: 10px;
+    left: 42px;
+    background: rgba(255, 255, 0 , 0.85);
+    height: 12px;
+    border-radius: 50%;
+    width: 12px;
+`;
+
+export const AboutMinButton = styled.div`
+    position: absolute;
+    top: 10px;
+    left: 62px;
+    background: rgba(0, 255, 0, 0.5);
+    height: 12px;
+    border-radius: 50%;
+    width: 12px;
 `;
