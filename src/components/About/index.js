@@ -34,7 +34,7 @@ export default function About() {
               I work with Web Development for about 7 years, using JS as the main stack.
               I have 6 years of working at
               {' '}
-              <a href="https://criatech.me" target="_blank">Criatech Solutions</a>
+              <a href="https://criatech.me" target="blank">Criatech Solutions</a>
               {' '}
               as a Full-stack Developer.
             </AboutText>
@@ -44,13 +44,13 @@ export default function About() {
               <AboutIcon src={resumeIcon} />
               My main technologies are:
               {' '}
-              <a href="https://reactjs.org/" target="_blank">React</a>
+              <a href="https://reactjs.org/" target="blank">React</a>
               {', '}
-              <a href="https://reactnative.dev" target="_blank">React Native</a>
+              <a href="https://reactnative.dev" target="blank">React Native</a>
               {', '}
-              <a href="https://nodejs.org" target="_blank">NodeJS</a>
+              <a href="https://nodejs.org" target="blank">NodeJS</a>
               {', '}
-              <a href="https://www.mongodb.com/" target="_blank">Mongodb</a>
+              <a href="https://www.mongodb.com/" target="blank">Mongodb</a>
               .
             </AboutText>
           </Grid>
