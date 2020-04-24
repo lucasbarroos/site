@@ -29,7 +29,7 @@ export const HeaderElements = styled.div`
 
 export const HeaderTitle = styled.p`
     position: absolute;
-    bottom: 35%;
+    bottom: 40%;
     font-size: 4em;
     color: wcoolBoxKeyframeshite;
     @media only screen and (max-height: 640px) {
