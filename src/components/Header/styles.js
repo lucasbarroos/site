@@ -29,9 +29,13 @@ export const HeaderElements = styled.div`
 
 export const HeaderTitle = styled.p`
     position: absolute;
-    bottom: 40%;
+    bottom: 35%;
     font-size: 4em;
     color: wcoolBoxKeyframeshite;
+    @media only screen and (max-height: 640px) {
+        font-size: 3em;
+        bottom: 50%;
+    }
 `;
 
 export const HeaderSubtitle = styled.p`
@@ -39,6 +43,10 @@ export const HeaderSubtitle = styled.p`
     bottom: 36%;
     font-size: 2em;
     color: white;
+    @media only screen and (max-height: 640px) {        
+        font-size: 1.8em;
+        bottom: 45%;
+    }
 `;
 
 export const ButtonContainer = styled.div`
@@ -49,6 +57,10 @@ export const ButtonContainer = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+    @media only screen and (max-height: 640px) {
+        font-size: 1em;
+        bottom: 25%;
+    }
 `;
 
 export const Picture = styled.div`
@@ -62,6 +74,11 @@ export const Picture = styled.div`
     width: 250px;
     border-radius: 50%;
     border: 5px solid #dddddd;
+    @media only screen and (max-height: 640px) {
+        height: 150px;
+        width: 150px;
+        bottom: 60%;
+    }
 `;
 
 const pulse = keyframes`
@@ -100,4 +117,9 @@ export const PictureContainer = styled.div`
     animation: ${pulse};
     animation-iteration-count: infinite;
     animation-duration: 2s;    
+    @media only screen and (max-height: 640px) {
+        height: 170px;
+        width: 170px;
+        bottom: 59%;
+    }
 `;
