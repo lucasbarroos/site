@@ -1,5 +1,6 @@
 import React from 'react';
 import { Grid, Button } from '@material-ui/core';
+import { Link } from 'react-router-dom';
 import moment from 'moment';
 import {
   Container,
@@ -50,7 +51,7 @@ export default function RecentPosts() {
           ))
         }
         <Grid item lg={12} md={12} sm={12} xs={12} style={{ textAlign: 'center' }}>
-          <Button variant="outlined" color="secondary">Blog Page</Button>
+          <Button variant="outlined" color="secondary"><Link to="/blog">Blog Page</Link></Button>
         </Grid>
       </Grid>
     </Container>

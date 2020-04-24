@@ -5,31 +5,21 @@ import {
   Route,
 } from 'react-router-dom';
 import Home from './pages/Home/index';
+import Blog from './pages/Blog/index';
 
 export default function App() {
   return (
     <Router>
       <div>
         <Switch>
-          <Route path="/">
+          <Route exact path="/">
             <Home />
           </Route>
-          <Route path="/about">
-            <About />
-          </Route>
-          <Route path="/users">
-            <Users />
+          <Route exact path="/blog">
+            <Blog />
           </Route>
         </Switch>
       </div>
     </Router>
   );
-}
-
-function About() {
-  return <h2>About</h2>;
-}
-
-function Users() {
-  return <h2>Users</h2>;
 }
