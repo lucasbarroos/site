@@ -27,8 +27,8 @@ export default function Header() {
         <HeaderTitle>Lucas Barros</HeaderTitle>
         <HeaderSubtitle>Pleno Full-stack Developer</HeaderSubtitle>
         <ButtonContainer>
-          <Button size="large" color="secondary" style={buttonActionStyle}>
-            <Link activeClass="active" to="contact" spy smooth offset={0} duration={500}>
+          <Button size="large" variant="contained" color="secondary" style={buttonActionStyle}>
+            <Link activeClass="active" style={{ color: '' }} to="contact" spy smooth offset={0} duration={500}>
               Let's look to the FUTURE
             </Link>
           </Button>

@@ -16,6 +16,7 @@ const posts = [{
 }];
 
 export default function Blog() {
+  window.scrollTo(0, 0);
   return (
     <Container>
       <BlogHeader />

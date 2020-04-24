@@ -19,6 +19,7 @@ const post = {
 
 export default function BlogPost() {
   const { id } = useParams();
+  window.scrollTo(0, 0);
 
   return (
     <Container>

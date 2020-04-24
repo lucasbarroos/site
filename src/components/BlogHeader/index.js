@@ -10,7 +10,7 @@ import {
 export default function BlogHeader() {
   return (
     <Container>
-      <BlogTitle><Link to="/">Lucas Barros - Blog</Link></BlogTitle>
+      <BlogTitle><Link to="/blog">Lucas Barros - Blog</Link></BlogTitle>
       <BlogMenu>
         <BlogMenuItem>ReactJs</BlogMenuItem>
         <BlogMenuItem>React Native</BlogMenuItem>
