@@ -44,7 +44,7 @@ export default function RecentPosts() {
                 </PostDescription>
                 <PostDate>{moment(el.date).format('DD MMM')}</PostDate>
                 <Button variant="contained" color="secondary" style={{ marginBottom: 10 }}>
-                  Read more
+                  <Link to="/blog/123">Read more</Link>
                 </Button>
               </Post>
             </Grid>
