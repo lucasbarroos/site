@@ -52,9 +52,11 @@ export const ULFloating = styled.ul`
     animation-delay: 2s;
     animation-duration: 2s;
     background-color: ghostwhite;
-    color: black;
     transition: 0.2s linear;
     box-shadow: 0px 0px 7px black;
+    a {
+        color: black !important;
+    }
 `;
 
 export const LIFloating = styled.ul`

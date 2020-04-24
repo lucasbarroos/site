@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import {
   Container,
   BlogTitle,
@@ -9,7 +10,7 @@ import {
 export default function BlogHeader() {
   return (
     <Container>
-      <BlogTitle>Lucas Barros - Blog</BlogTitle>
+      <BlogTitle><Link to="/">Lucas Barros - Blog</Link></BlogTitle>
       <BlogMenu>
         <BlogMenuItem>ReactJs</BlogMenuItem>
         <BlogMenuItem>React Native</BlogMenuItem>

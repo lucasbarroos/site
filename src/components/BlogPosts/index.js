@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { Grid, Button } from '@material-ui/core';
 import moment from 'moment';
 import {
@@ -31,7 +32,7 @@ export default function BlogPosts({ posts }) {
               </PostDescription>
               <PostDate>{moment(el.date).format('DD MMM YYYY')}</PostDate>
               <Button variant="contained" color="secondary" style={{ marginBottom: 10 }}>
-                Read more
+                <Link to={`/blog/${123}`}>Read more</Link>
               </Button>
             </Post>
           </Grid>

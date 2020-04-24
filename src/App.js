@@ -6,6 +6,7 @@ import {
 } from 'react-router-dom';
 import Home from './pages/Home/index';
 import Blog from './pages/Blog/index';
+import BlogPost from './pages/BlogPost/index';
 
 export default function App() {
   return (
@@ -17,6 +18,9 @@ export default function App() {
           </Route>
           <Route exact path="/blog">
             <Blog />
+          </Route>
+          <Route exact path="/blog/:id">
+            <BlogPost />
           </Route>
         </Switch>
       </div>
