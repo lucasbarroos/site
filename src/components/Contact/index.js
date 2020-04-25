@@ -32,7 +32,7 @@ export default function Contact() {
         <Grid item lg={6} md={6} sm={12} xs={12} style={{ padding: 20 }}>
           <Form>
             <FormTitle>Send a Message</FormTitle>
-            <TextField id="standard-basic" label="Your name" style={inputStyle} />
+            <TextField label="Your name" style={inputStyle} />
             <TextField id="standard-basic" label="Your email" style={inputStyle} />
             <TextField id="standard-basic" multiline rows={3} label="Your message" style={inputStyle} />
             <Button variant="contained" color="primary" style={inputStyle}>

@@ -1,7 +1,8 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-    background-color: rgba(0, 0, 0, 0.05);
+    background-color: black;
+    color: white;
     padding: 20px;
 `;
 
@@ -18,6 +19,7 @@ export const Text = styled.p`
     letter-spacing: 2px;
     font-weight: 300;
     margin-top: 10px;
+    color: white;
     @media only screen and (min-width: 885px) {       
         text-align: right;
     };
@@ -27,11 +29,13 @@ export const Text = styled.p`
 `;
 
 export const Form = styled.div`
+    background-color: ghostwhite;
+    color: black;
     margin-left: 30px;
     margin-bottom: 30px;
     padding: 2% 20% 2% 20%;    
     border-radius: 10px;
-    border: 1px solid rgba(0, 0, 0, 0.3);
+    border: 1px solid white;
 `;
 
 export const FormTitle = styled.p`
