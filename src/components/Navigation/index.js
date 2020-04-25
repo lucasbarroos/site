@@ -38,11 +38,6 @@ export default function Navigation() {
           </Link>
         </LI>
         <LI>
-          <Link activeClass="active" to="recent_posts" spy smooth offset={0} duration={500}>
-            Blog
-          </Link>
-        </LI>
-        <LI>
           <Link activeClass="active" to="contact" spy smooth offset={0} duration={500}>
             Contact
           </Link>
@@ -57,11 +52,6 @@ export default function Navigation() {
         <LIFloating>
           <Link activeClass="active" to="about" spy smooth offset={0} duration={500}>
             About
-          </Link>
-        </LIFloating>
-        <LIFloating>
-          <Link activeClass="active" to="recent_posts" spy smooth offset={0} duration={500}>
-            Blog
           </Link>
         </LIFloating>
         <LIFloating>

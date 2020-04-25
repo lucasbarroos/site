@@ -17,11 +17,6 @@ export default function ResponsiveNavigation({ show, hideNavigation }) {
           </Link>
         </Label>
         <Label>
-          <Link activeClass="active" to="recent_posts" onClick={() => hideNavigation()} spy smooth offset={0} duration={500}>
-            Blog
-          </Link>
-        </Label>
-        <Label>
           <Link activeClass="active" to="contact" onClick={() => hideNavigation()} spy smooth offset={0} duration={500}>
             Contact
           </Link>
