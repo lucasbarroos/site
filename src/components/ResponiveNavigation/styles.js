@@ -7,7 +7,7 @@ export const Container = styled.div`
     width: 100vw;
     background-color: rgba(0, 0, 0, 0.95);
     display: ${(props) => (props.show ? 'initial' : 'none')};
-    overflow-y:  ${(props) => (props.show ? 'hidden' : 'auto')};
+    transition: 2s;
 `;
 
 export const Elements = styled.div`
@@ -18,7 +18,6 @@ export const Elements = styled.div`
     text-align: center;
     height: 100%;
 `;
-
 
 export const Label = styled.div`
     font-size: 2.5em;

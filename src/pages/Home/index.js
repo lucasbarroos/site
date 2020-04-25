@@ -6,7 +6,7 @@ import Contact from '../../components/Contact/index';
 
 export default function Home() {
   return (
-    <div>
+    <div style={{ zIndex: 5 }}>
       <Navigation />
       <Header />
       <About />
