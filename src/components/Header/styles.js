@@ -24,7 +24,7 @@ export const HeaderElements = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100%;
+    height: auto;
 `;
 
 export const HeaderTitle = styled.p`

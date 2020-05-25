@@ -24,7 +24,6 @@ export const AboutText = styled.p`
     position: relative; 
     font-size: 1.5em;
     min-height: 260px;
-    font-weight: 500;
     padding: 60px 7% 7% 7%;
     a {
         color: rgba(255, 255, 255, 0.7);

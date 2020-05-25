@@ -1,20 +1,19 @@
 import React from 'react';
-import { Grid, TextField, Button } from '@material-ui/core';
+import { Grid } from '@material-ui/core';
+import GithubIcon from '../../assets/images/github.png';
+import LinkedinIcon from '../../assets/images/linkedin.png';
 import {
   Container,
   Title,
   Text,
   Form,
   FormTitle,
-  Icon,
+  SocialMediaForm,
+  SocialMedia,
+  SocialMediaIcon,
+  SocialMediaLink,
 } from './styles';
-import MessageIcon from '../../assets/images/speak.png';
 
-const inputStyle = {
-  width: '100%',
-  marginTop: 10,
-  marginBottom: 10,
-};
 
 export default function Contact() {
   return (
@@ -24,20 +23,22 @@ export default function Contact() {
           <Title>Contact me</Title>
         </Grid>
         <Grid item lg={6} md={6} sm={12} xs={12}>
-          <Text><Icon src={MessageIcon} /></Text>
           <Text>Let's talk about your project. </Text>
           <Text>We can develop your idea. </Text>
-          <Text>We can realize your dreams! </Text>
         </Grid>
         <Grid item lg={6} md={6} sm={12} xs={12} style={{ padding: 20 }}>
           <Form>
-            <FormTitle>Send a Message</FormTitle>
-            <TextField label="Your name" style={inputStyle} />
-            <TextField id="standard-basic" label="Your email" style={inputStyle} />
-            <TextField id="standard-basic" multiline rows={3} label="Your message" style={inputStyle} />
-            <Button variant="contained" color="primary" style={inputStyle}>
-              Send
-            </Button>
+            <FormTitle>Social Medias</FormTitle>
+            <SocialMediaForm>
+              <SocialMedia>
+                <SocialMediaIcon src={GithubIcon} />
+                <a href="https://github.com/lucasbarroos" target="blank">Github</a>
+              </SocialMedia>
+              <SocialMedia>
+                <SocialMediaIcon src={LinkedinIcon} />
+                <a href="https://www.linkedin.com/in/lucasbarrosdev" target="blank">Linkedin</a>
+              </SocialMedia>
+            </SocialMediaForm>
           </Form>
         </Grid>
       </Grid>
