@@ -1,6 +1,7 @@
 body {
   margin: 0;
-  font-family: 'Titillium Web', sans-serif
+  /* font-family: 'Titillium Web', sans-serif */
+  font-family: 'Fira Code', monospace;
 }
 
 * {
@@ -14,6 +15,7 @@ a {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  /* font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace; */
+    font-family: 'Fira Code', monospace;
 }
