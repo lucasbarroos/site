@@ -11,7 +11,6 @@ import {
   SocialMediaForm,
   SocialMedia,
   SocialMediaIcon,
-  SocialMediaLink,
 } from './styles';
 
 
