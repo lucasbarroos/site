@@ -12,7 +12,6 @@ export const Container = styled.div`
 `;
 
 export const UL = styled.ul`
-    position: absolute;
     display: flex;
     height: ${(props) => (props.showTopHeader ? '60px' : '0px')};
     opacity: ${(props) => (props.showTopHeader ? 100 : 0)};

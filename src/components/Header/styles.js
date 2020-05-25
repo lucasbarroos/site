@@ -99,7 +99,7 @@ const pulse = keyframes`
   }
   50% {
     background: #f09433; 
-    opacity: 40%;
+    opacity: 20%;
     background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
     background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
     background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
@@ -125,7 +125,7 @@ export const PictureContainer = styled.div`
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
     animation: ${pulse};
     animation-iteration-count: infinite;
-    animation-duration: 2s;    
+    animation-duration: 1.6s;    
     @media only screen and (max-height: 640px) {
         height: 170px;
         width: 170px;
